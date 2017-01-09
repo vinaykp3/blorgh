@@ -6,6 +6,7 @@ module Blorgh
 
     # GET /articles
     def index
+      
       @articles = Article.all
     end
 
